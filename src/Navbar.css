@@ -1,0 +1,20 @@
+#emblem-container{
+    float:left;
+    padding-top:0.5%;
+}
+#navbar{
+    padding-left:1.183431953%;
+}
+#title-container h1{
+    padding: 3%;
+    background-color: #2780e3;
+    margin-left: 15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: aliceblue;
+    
+}
+#title-container{
+    
+    border-color: transparent transparent #2780e3 transparent;
+}

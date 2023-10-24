@@ -1,0 +1,57 @@
+#cms-field{
+    background-color:#2780e3 ;
+    height: 80vh;
+    margin:1vh
+}
+#cms-field h1{
+    color: aliceblue;
+    padding-top:20vh;
+    font-size: 4vh;
+}
+.offer-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #fc5830;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-circle img{
+    height: 50px;
+    width: auto;
+}
+
+#cit-login{
+    background-color: #fc5830;
+}
+.offer-box{
+    width: calc(25% - 20px);
+    margin-left: 20px;
+    height: 45vh;
+    background: white;
+    border: none;
+    box-shadow: 0 4px 8px #0003;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    color: #095095;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#cms-boxes{
+    display: flex;
+}
+
+#cvc-login{
+    background-color:#75a63f
+}
+
+#status{
+    background-color: #18a07b;
+}
