@@ -1,12 +1,13 @@
 #cms-field{
-    background-color:#2780e3 ;
-    height: 80vh;
+    background-color:#3c4ba8 ;
+    height: 70vh;
     margin:1vh
 }
 #cms-field h1{
     color: aliceblue;
-    padding-top:20vh;
-    font-size: 4vh;
+    padding-top:10vh;
+    font-size: 6vh;
+    text-align: center;
 }
 .offer-circle{
     height: 100px;
@@ -28,8 +29,8 @@
 }
 .offer-box{
     width: calc(25% - 20px);
-    margin-left: 20px;
-    height: 45vh;
+    margin-left: 5%;
+    height: 35vh;
     background: white;
     border: none;
     box-shadow: 0 4px 8px #0003;
@@ -43,9 +44,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 43vh;
+    margin-right: 5%;
+    font-size: 20px;
 }
 #cms-boxes{
     display: flex;
+    padding:5%
 }
 
 #cvc-login{
@@ -54,4 +59,13 @@
 
 #status{
     background-color: #18a07b;
+}
+a{
+    text-decoration: none;
+    color: #3c4ba8;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #3c4ba8;
 }

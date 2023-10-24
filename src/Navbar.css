@@ -7,7 +7,6 @@
 }
 #title-container h1{
     padding: 3%;
-    background-color: #2780e3;
     margin-left: 15%;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -16,5 +15,38 @@
 }
 #title-container{
     
-    border-color: transparent transparent #2780e3 transparent;
+    border-color: transparent transparent #3c4ba8  transparent;
+}
+
+#title-container{
+    display: flex;
+    background-color: #3c4ba8;
+    margin-right:0;
+    justify-content: right;
+    align-content:right;
+    margin-left: 10%;
+    font-size:22px;
+    border-radius: 180px  0 0 ;
+
+}
+#title-container h1{
+    margin-right:23%;
+    font-family: serif;
+}
+#aai-logo{
+    border-radius: 50% 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float:right;
+}
+#aai-logo img{
+    height:10vh;
+    width:auto;
+    
+}
+
+#emblem{
+    height: 15vh;
 }
